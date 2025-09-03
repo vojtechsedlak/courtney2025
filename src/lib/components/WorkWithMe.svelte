@@ -243,10 +243,10 @@
 			<div class="tab-pane anxiety {activeTab === 'anxiety-ocd' ? 'active' : ''}">
 				<div class="tab-row">
 					<div class="content">
-						<p>Anxiety disorders can feel terrifying. Your threat response is going off ALL THE TIME. Maybe you feel like you can’t relax–like you are stuck in overdrive and cannot for the life of you slow down. Or, maybe you are plagued with intense physical symptoms like heart palpitations, nausea, bloating, dizziness, and can’t shake the feeling that something is medically wrong, despite all your medical tests coming back normal. </p>
+						<p>Anxiety disorders can feel terrifying. Your threat response is going off <strong>ALL THE TIME</strong>. Maybe you feel like you can’t relax–like you are stuck in overdrive and cannot for the life of you slow down. Or, maybe you are plagued with intense physical symptoms like heart palpitations, nausea, bloating, dizziness, and can’t shake the feeling that something is medically wrong, despite all your medical tests coming back normal. </p>
 <p>Perhaps you’ve even stopped doing the things you used to love to do–your world has shrunk and doing absolutely anything fills you with a sense of complete overwhelm. And maybe on top of it all your mind is filled with intrusive thoughts that you keep trying to push away but they just keep on looping. </p>
 <p>Unfortunately, there is so much misinformation out there telling us how to “regulate” our nervous systems or “how to stop” anxiety in 10 seconds. Or we are bombarded with ads that convince us that if we spend hundreds of dollars on the latest vagus nerve stimulating device or supplement regime we can finally be free and feel calm. </p>
-<p>The paradox about anxiety is that the more that we try to make it go away, the worse it gets. That’s why I’m passionate about using evidence-based treatment modalities like CBT and ERP for treating disordered anxiety, anxiety disorders, and OCD.  </p>
+<p>The paradox about anxiety is that <b>the more that we try to make it go away, the worse it gets</b>. That’s why I’m passionate about using evidence-based treatment modalities like CBT and ERP for treating disordered anxiety, anxiety disorders, and OCD.  </p>
 
 
 						<a href="https://courtneysedlak.janeapp.com/#/staff_member/1" class="btn-cta" target="_blank" rel="noopener noreferrer" on:click={() => trackBookingClick('work-with-me-anxiety')}>
