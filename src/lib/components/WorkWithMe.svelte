@@ -212,10 +212,10 @@
 				Eating Disorders
 			</button>
 			<button 
-				class="tab-pill {activeTab === 'perinatal-counselling' ? 'active' : ''}"
-				on:click={() => setActiveTab('perinatal-counselling')}
+				class="tab-pill {activeTab === 'anxiety-ocd' ? 'active' : ''}"
+				on:click={() => setActiveTab('anxiety-ocd')}
 			>
-				Perinatal Counselling
+				Anxiety & OCD
 			</button>
 		</div>
 		
@@ -240,20 +240,20 @@
 				</div>
 			</div>
 			
-			<div class="tab-pane perinatal {activeTab === 'perinatal-counselling' ? 'active' : ''}">
+			<div class="tab-pane anxiety {activeTab === 'anxiety-ocd' ? 'active' : ''}">
 				<div class="tab-row">
 					<div class="content">
-						<p>Maybe trying to conceive is a crapshoot that has you stressed and feeling hopeless. Or, maybe you've just had a miscarriage and are left feeling like your grief has to be kept a secret. Perhaps the body changes pregnancy brings has you feeling uncomfortable in your own skin. Or the sleepless nights and feeding challenges in the newborn phase have left you with crippling anxiety you just can't seem to shake. </p>
-<p>The perinatal period (preconception to postpartum) can be just about the <b>wildest, most humbling period in a person's life</b>. And even if we try to prepare ourselves for it, there are always elements that will be completely out of our control. And if you are anything like I was, being out of control was not the most comfortable feeling. </p>
-<p>As a therapist, I thought I was set. I knew about postpartum mental health issues and even went so far as seeing a perinatal counsellor when I was pregnant to minimize my chances of struggling. But surprisingly to me at the time, I struggled. Hugely. With debilitating postpartum anxiety.</p>
-<p>Now, everyone's experience with perinatal anxiety is different, but along the way I learned (through further education and through heart to heart with my mama friends) a thing or two about perinatal health and have since become passionate about supporting clients through this period with all its ups and downs. </p>
-<p>An area of particular interest to me is working with folks in the perinatal period who are struggling with disordered eating or an eating disorder or who have an eating disorder history. The perinatal period is ripe with triggers for the onset, maintenance, and relapse of eating disorders and I love helping clients develop a better relationship with food and body so that they can be more present, healthy, and balanced for themselves and their growing families. </p>
+						<p>Anxiety disorders can feel terrifying. Your threat response is going off ALL THE TIME. Maybe you feel like you can’t relax–like you are stuck in overdrive and cannot for the life of you slow down. Or, maybe you are plagued with intense physical symptoms like heart palpitations, nausea, bloating, dizziness, and can’t shake the feeling that something is medically wrong, despite all your medical tests coming back normal. </p>
+<p>Perhaps you’ve even stopped doing the things you used to love to do–your world has shrunk and doing absolutely anything fills you with a sense of complete overwhelm. And maybe on top of it all your mind is filled with intrusive thoughts that you keep trying to push away but they just keep on looping. </p>
+<p>Unfortunately, there is so much misinformation out there telling us how to “regulate” our nervous systems or “how to stop” anxiety in 10 seconds. Or we are bombarded with ads that convince us that if we spend hundreds of dollars on the latest vagus nerve stimulating device or supplement regime we can finally be free and feel calm. </p>
+<p>The paradox about anxiety is that the more that we try to make it go away, the worse it gets. That’s why I’m passionate about using evidence-based treatment modalities like CBT and ERP for treating disordered anxiety, anxiety disorders, and OCD.  </p>
 
-						<a href="https://courtneysedlak.janeapp.com/#/staff_member/1" class="btn-cta" target="_blank" rel="noopener noreferrer" on:click={() => trackBookingClick('work-with-me-perinatal')}>
+
+						<a href="https://courtneysedlak.janeapp.com/#/staff_member/1" class="btn-cta" target="_blank" rel="noopener noreferrer" on:click={() => trackBookingClick('work-with-me-anxiety')}>
 							Book a Session
 						</a>
 					</div>
-					<img src="/bg2.jpeg" alt="Perinatal Counselling Support" class="tab-image" />
+					<img src="/bg2.jpeg" alt="Anxiety & OCD Counselling Support" class="tab-image" />
 				</div>
 			</div>
 		</div>
