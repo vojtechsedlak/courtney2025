@@ -13,7 +13,7 @@
 
 <svelte:head>
 	<title>Contact - Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
-	<meta name="description" content="Get in touch with Courtney Sedlak, Registered Clinical Counsellor. Book a session or learn more about eating disorder recovery and intuitive eating counseling." />
+	<meta name="description" content="Get in touch with Courtney Sedlak, Registered Clinical Counsellor. Book a session or learn more about eating disorder recovery." />
 </svelte:head>
 
 <style>

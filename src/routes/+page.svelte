@@ -7,8 +7,8 @@
 </script>
 
 <svelte:head>
-	<title>Courtney Sedlak - Eating Disorder Counselling & Intuitive Eating RD</title>
-	<meta name="description" content="Registered Dietitian specializing in eating disorder recovery and intuitive eating. Compassionate, evidence-based nutrition therapy for food freedom and body acceptance." />
+	<title>Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
+	<meta name="description" content="Registered Clinical Counsellor specializing in Eating Disorders, Disordered Eating, Anxiety and OCD " />
 </svelte:head>
 
 <Header />
