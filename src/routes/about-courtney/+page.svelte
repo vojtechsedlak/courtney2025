@@ -103,7 +103,7 @@
 <p>Since completing my Master of Counselling degree in 2020 from City University of Seattle in Vancouver, where I focused my thesis research on orthorexia, I’ve worked on multidisciplinary teams with youth, adults and families in community-based eating disorder programs and in private practice.</p>
 <p>In the past few years I’ve expanded my area of focus to include Neurodivergence, as I’m passionate about working with Autistic and ADHD folks. This interest was the natural evolution of specializing in working with people struggling with disordered eating, eating disorders, and anxiety disorders—mental health challenges that disproportionately impact Neurodivergent people. </p>
 <p>Just as my lived experience with an eating disorder has informed my work, so has my first-hand experience with postpartum anxiety after the birth of my son in 2021. In my own attempt to understand my suffering I developed a deep curiosity about anxiety, anxiety disorders, and OCD and decided to pursue specialized training in this area. Since then, I’ve thoroughly enjoyed supporting folks (including those in the perinatal period) in becoming unburdened by their anxiety. </p>
-<p>When I am not with clients, you can find me exploring the city and surrounding nature with my kiddo and partner, connecting with close friends, organizing playdates, and trying desperately to focus for long enough to read a book. </p>
+<p>When I am not with clients, you can find me by the ocean with my kiddo and partner, enjoying Victoria’s food scene, hyperfocusing on a puzzle, or binge-watching real-estate shows. </p>
 				</div>
 
 				<div class="text-center">
