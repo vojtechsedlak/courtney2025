@@ -2,12 +2,22 @@
 	import Header from '$lib/components/Header.svelte';
 	import SimpleHero from '$lib/components/SimpleHero.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import { trackBookingClick } from '$lib/utils/analytics.js';
+
+	const breadcrumbItems = [
+		{ text: 'Home', url: '/' },
+		{ text: 'About Courtney' }
+	];
 </script>
 
 <svelte:head>
-	<title>About Me - Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
-	<meta name="description" content="Learn more about Courtney Sedlak, Registered Clinical Counsellor specializing in eating disorder recovery and perinatal counseling." />
+	<title>About Courtney Sedlak, RCC | Eating Disorder Therapist | Victoria BC Mental Health</title>
+	<meta name="description" content="Meet Courtney Sedlak, Master's-level Registered Clinical Counsellor with specialized training in eating disorders, anxiety, OCD, and neurodivergent care. Personal recovery experience and trauma-informed approach in Victoria, BC." />
+	<link rel="canonical" href="https://courtneysedlak.com/about-courtney" />
+	<meta property="og:url" content="https://courtneysedlak.com/about-courtney" />
+	<meta property="og:title" content="About Courtney Sedlak, RCC | Eating Disorder Therapist Victoria BC" />
+	<meta property="og:description" content="Meet Courtney Sedlak, Master's-level Registered Clinical Counsellor with specialized training in eating disorders, anxiety, OCD, and neurodivergent care in Victoria, BC." />
 </svelte:head>
 
 <style>
@@ -90,7 +100,7 @@
 	title="About Me" 
 	subtitle="My journey to becoming a counsellor was not a linear one"
 />
-
+<Breadcrumb items={breadcrumbItems} />
 <section class="content-section">
 	<div class="container">
 		<div class="about-content">

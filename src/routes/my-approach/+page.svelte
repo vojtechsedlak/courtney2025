@@ -2,12 +2,22 @@
 	import Header from '$lib/components/Header.svelte';
 	import SimpleHero from '$lib/components/SimpleHero.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import { trackBookingClick } from '$lib/utils/analytics.js';
+
+	const breadcrumbItems = [
+		{ text: 'Home', url: '/' },
+		{ text: 'My Approach' }
+	];
 </script>
 
 <svelte:head>
-	<title>My Approach - Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
-	<meta name="description" content="Learn about my compassionate, evidence-based approach to eating disorder recovery." />
+	<title>My Therapy Approach | Trauma-Informed Eating Disorder Treatment | Courtney Sedlak RCC</title>
+	<meta name="description" content="Discover my neurodiversity-affirming, Health at Every Size®, trauma-informed approach to eating disorder recovery. CBT, IFS, somatic therapy, and Family Based Treatment for comprehensive healing in Victoria, BC." />
+	<link rel="canonical" href="https://courtneysedlak.com/my-approach" />
+	<meta property="og:url" content="https://courtneysedlak.com/my-approach" />
+	<meta property="og:title" content="Trauma-Informed Eating Disorder Treatment Approach | Victoria BC" />
+	<meta property="og:description" content="Neurodiversity-affirming, Health at Every Size® approach combining CBT, IFS, and somatic therapy for eating disorder recovery in Victoria, BC." />
 </svelte:head>
 
 <style>
@@ -76,6 +86,7 @@
 	title="A Tailored Approach" 
 	subtitle="I recognize all individuals come to counselling with different personalities, temperaments, cultural backgrounds, needs, and past experiences—even if their struggles sometimes look similar from the outside."
 />
+<Breadcrumb items={breadcrumbItems} />
 
 <section class="content-section">
 	<div class="container">

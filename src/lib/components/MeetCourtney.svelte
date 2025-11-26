@@ -75,22 +75,28 @@
 	}
 </style>
 
-<section class="meet-courtney">
+<section class="meet-courtney" itemScope itemType="https://schema.org/Person">
 	<div class="container">
 		<h2 class="section-title">Meet Courtney</h2>
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-center">
-				<img src="/courtney.jpg" alt="Courtney Sedlak, Registered Clinical Counsellor" class="courtney-image" />
+				<img src="/courtney.jpg" 
+					 alt="Courtney Sedlak, RCC - Registered Clinical Counsellour specializing in eating disorder recovery, anxiety, and OCD therapy in Victoria, BC" 
+					 class="courtney-image" 
+					 loading="lazy"
+					 width="400"
+					 height="400"
+					 itemProp="image" />
 			</div>
 			<div class="col-lg-7 col-md-6">
 				<div class="content">
-					<p>
-						As a Registered Clinical Counsellor with a background in culinary arts and holistic nutrition I offer counselling services for individuals with eating disorders and disordered eating patterns, as well as those seeking to develop a healthier relationship with food and their body.
+					<p itemProp="description">
+						As a <span itemProp="jobTitle">Registered Clinical Counsellour</span> with a background in culinary arts and holistic nutrition I offer counselling services for individuals with <strong>eating disorders and disordered eating patterns</strong>, as well as those seeking to develop a healthier relationship with food and their body.
 					</p>
 					<p>
 						Having struggled with an eating disorder, I know first hand how scary, confusing, and lonely it can feel, and how difficult it can be to seek help. <strong>My personal experience living with and recovering from a disordered relationship with food and body has been a huge driving force</strong> behind the work I do today.
 					</p>
-					<a href="/about-courtney" class="btn-cta">
+					<a href="/about-courtney" class="btn-cta" aria-label="Learn more about Courtney Sedlak's background and qualifications">
 						More About Me
 					</a>
 				</div>

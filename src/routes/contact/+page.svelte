@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import { trackBookingClick } from '$lib/utils/analytics.js';
 	
 	let isSubmitting = false;
@@ -9,11 +10,20 @@
 	function updateButton() {
 		isSubmitted = true;
 	}
+
+	const breadcrumbItems = [
+		{ text: 'Home', url: '/' },
+		{ text: 'Contact' }
+	];
 </script>
 
 <svelte:head>
-	<title>Contact - Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
-	<meta name="description" content="Get in touch with Courtney Sedlak, Registered Clinical Counsellor. Book a session or learn more about eating disorder recovery." />
+	<title>Contact & Book Session | Courtney Sedlak RCC | Eating Disorder Therapist Victoria BC</title>
+	<meta name="description" content="Contact Courtney Sedlak, RCC for eating disorder therapy in Victoria, BC. Two convenient locations: Oak Bay Avenue and Cook Street. Book online or call (604) 373-8381 for free consultation." />
+	<link rel="canonical" href="https://courtneysedlak.com/contact" />
+	<meta property="og:url" content="https://courtneysedlak.com/contact" />
+	<meta property="og:title" content="Contact Eating Disorder Therapist Victoria BC | Book Session" />
+	<meta property="og:description" content="Contact Courtney Sedlak, RCC for eating disorder therapy in Victoria, BC. Two convenient locations. Book online or call (604) 373-8381." />
 </svelte:head>
 
 <style>
@@ -306,6 +316,7 @@
 </style>
 
 <Header />
+<Breadcrumb items={breadcrumbItems} />
 
 <section class="content-section">
 	<div class="container">

@@ -7,8 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>Courtney Sedlak - Eating Disorder Counselling in Greater Victoria, BC</title>
-	<meta name="description" content="Registered Clinical Counsellor specializing in Eating Disorders, Disordered Eating, Anxiety and OCD " />
+	<title>Courtney Sedlak, RCC - Eating Disorder Counsellor | Victoria BC | Anxiety & OCD Therapy</title>
+	<meta name="description" content="Registered Clinical Counsellor specializing in eating disorder recovery, anxiety therapy, and OCD treatment. Neurodiversity-affirming, trauma-informed care in Greater Victoria, BC. Book your session today." />
+	<link rel="canonical" href="https://courtneysedlak.com" />
+	<meta property="og:url" content="https://courtneysedlak.com" />
+	<meta property="og:title" content="Courtney Sedlak, RCC - Eating Disorder Counsellor | Victoria BC" />
+	<meta property="og:description" content="Registered Clinical Counsellor specializing in eating disorder recovery, anxiety therapy, and OCD treatment. Neurodiversity-affirming, trauma-informed care in Greater Victoria, BC." />
 </svelte:head>
 
 <Header />
